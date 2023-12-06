@@ -27,7 +27,7 @@ if(!stristr($portal_redirurl, $request_uri)) {
 	<div class="login-card">
 		<img src="captiveportal-logo.png"/><br>
  		<h1></h1>
-	  <form name="login_form" method="post" action="$PORTAL_ACTION$">
+	  <form name="login_form" method="post" action="http://192.168.1.1:8002/index.php?zone=cap&redirurl=http%3A%2F%2F172.16.0.144%2F">
 		<input type="text" name="auth_user" placeholder="User" id="auth_user">
 		<input type="password" name="auth_pass" placeholder="Password" id="auth_pass">
 		  <div class="login-help">
